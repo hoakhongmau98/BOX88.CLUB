@@ -1,0 +1,166 @@
+body{
+    background-image: url('../img/Background.png');
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    background-position-y: unset;
+    height: 100vh;
+    /* background-position-x: -234px; */
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: scroll;
+    /* background-position: top center; */
+}
+main {
+    margin-top: 150px;
+}
+.err {
+    margin-top: -12px;
+    color: red;
+}
+.container {
+    max-width: 1024px;
+    margin: auto;
+}
+.flex {
+    display: flex;
+}
+.form {
+    width: 40%;
+    background-color: rgba(233,61,61,0);
+    border-radius: 6px;
+    border:1px solid white;
+}
+.flex .form .title {
+    text-align: center;
+}
+.form .title h3 {
+    color: white;
+    font-size: 21px;
+}
+.form .timergird {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+.form .timergird .timer {
+    text-align: center;
+}
+.form .timergird .timer h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.form .timergird p {
+    background: rgba(255,33,100,1);
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 36px;
+    font-weight: 700;
+    border-radius: 6px;
+    margin: 0 5px;
+}
+.form form {
+    padding: 0 50px;
+    margin: 20px 0px;
+}
+.site-name {
+    background-color: #ff2164;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 34px;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+.form form input {
+    width: 296px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 18px 0px 18px 12px;
+    background-color: white;
+    color: rgba(0,0,0,1);
+    margin-bottom: 36px;
+}
+.form form input:focus {
+    outline: none;
+}
+.form form button {
+    background-color: rgba(255,33,100,1);
+    border: 1px solid rgba(255,33,100,1);
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 18px 0px 18px 12px;
+    margin-bottom: 36px;
+}
+.form form button:hover {
+    cursor: pointer;
+}
+.form form button:focus {
+    outline: none;
+}
+.date {
+    border: 0;
+    width: 100%;
+    text-align: center;
+}
+.content {
+    padding-left: 65px;
+    margin-top: 20px;
+}
+.content .content-title {
+    padding-bottom: 36px;
+    text-align: center;
+}
+.content .content-title h1 {
+    margin: 0px;
+    color: white;
+}
+.content .content-title h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.content .text p {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.flex .content {
+    width: 60%;
+}
+.block {
+    background-color: rgba(255,33,100,1);
+    border-radius: 10px;
+    margin-top: 120px;
+}
+.block .item {
+    width: 33.3333%;
+    padding: 20px 30px;
+}
+.block .item .text {
+    padding-left: 16px;
+}
+.block .item .icon i{
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+}
+.block .item h3, h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+.block .item h3 {
+    text-transform: uppercase;
+}
+.block .item h4 { 
+    color: white;
+}
